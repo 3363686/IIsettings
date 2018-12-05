@@ -1,0 +1,6 @@
+<application>
+  <component name="JsonFormatterApplicationSettings">
+    <option name="indentSize" value="2" />
+    <option name="formatterType" value="COMPACT" />
+  </component>
+</application>

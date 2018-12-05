@@ -1,0 +1,28 @@
+<application>
+  <component name="DatabaseSettings">
+    <text-mode>
+      <parameter-patterns>
+        <parameter-pattern value="?\d+" />
+        <parameter-pattern value=":\w+" />
+        <parameter-pattern value="%\w+" />
+        <parameter-pattern value="$\{[^$\{\}]*\}" />
+        <parameter-pattern value="$\w+$" />
+        <parameter-pattern value="#\w+#" />
+      </parameter-patterns>
+    </text-mode>
+    <extractors>
+      <xsv-extractor name="newe CSV">
+        <option name="opening-quote" value="" />
+        <option name="closing-quote" value="" />
+        <option name="value-separator" value="|" />
+      </xsv-extractor>
+      <std-extractor type="csv" name="Comma-separated Values (CSV)" />
+      <std-extractor type="tsv" name="Tab-separated Values (TSV)" />
+      <std-extractor type="html" name="HTML Table" />
+      <extractor type="sql-insert" name="SQL Insert Statements" />
+      <extractor type="sql-update" name="SQL Update Statements" />
+      <std-extractor type="xml" name="XML" />
+      <extractor type="json" name="JSON" />
+    </extractors>
+  </component>
+</application>
