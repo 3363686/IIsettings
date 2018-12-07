@@ -69,10 +69,20 @@
       <path value="Help" />
       <option name="myInitialPosition" value="-1" />
     </group>
+    <group action_type="1" position="24">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
     <group action_type="1" position="25">
       <path value="root" />
       <path value="Main menu" />
       <path value="Help" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="HelpTopics" is_action="true" action_type="1" position="25">
+      <path value="root" />
+      <path value="Main Toolbar" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <group action_type="1" position="26">

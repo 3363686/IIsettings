@@ -1,0 +1,5 @@
+<list display="List" description="List of Lists">
+  <action id="QuickList.Deployment" />
+  <action id="QuickList.Plugins" />
+  <action id="QuickList.Quick List Test 1" />
+</list>

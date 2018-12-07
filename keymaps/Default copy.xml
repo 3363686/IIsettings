@@ -63,7 +63,7 @@
   <action id="EmmetNextEditPoint" />
   <action id="EmmetPreviousEditPoint" />
   <action id="FileChooser.GotoJDK">
-    <keyboard-shortcut first-keystroke="alt l" second-keystroke="back_quote" />
+    <keyboard-shortcut first-keystroke="alt l" second-keystroke="q" />
   </action>
   <action id="HelloTextEditorAction">
     <keyboard-shortcut first-keystroke="shift ctrl alt e" />
@@ -109,6 +109,9 @@
   </action>
   <action id="QuickList.Deployment">
     <keyboard-shortcut first-keystroke="alt l" second-keystroke="d" />
+  </action>
+  <action id="QuickList.List">
+    <keyboard-shortcut first-keystroke="alt l" second-keystroke="a" />
   </action>
   <action id="QuickList.Plugins">
     <keyboard-shortcut first-keystroke="alt l" second-keystroke="p" />
